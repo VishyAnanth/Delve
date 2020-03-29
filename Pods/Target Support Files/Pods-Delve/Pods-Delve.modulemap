@@ -1,0 +1,6 @@
+framework module Pods_Delve {
+  umbrella header "Pods-Delve-umbrella.h"
+
+  export *
+  module * { export * }
+}

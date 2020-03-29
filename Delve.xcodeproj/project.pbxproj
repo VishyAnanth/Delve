@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0500271442A5DD27E9A8FC03 /* Pods_Delve_DelveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BE8F4911B04176A4CFB9 /* Pods_Delve_DelveUITests.framework */; };
+		29432D985A387118DF6FC927 /* Pods_Delve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CBB18123DBC4938B3CC34B /* Pods_Delve.framework */; };
 		2C5401D62430840200D346C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D52430840200D346C5 /* AppDelegate.swift */; };
 		2C5401D82430840200D346C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D72430840200D346C5 /* SceneDelegate.swift */; };
 		2C5401DA2430840200D346C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D92430840200D346C5 /* ViewController.swift */; };
-		2C5401DD2430840200D346C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401DB2430840200D346C5 /* Main.storyboard */; };
 		2C5401E02430840200D346C5 /* Delve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401DE2430840200D346C5 /* Delve.xcdatamodeld */; };
 		2C5401E22430840400D346C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401E12430840400D346C5 /* Assets.xcassets */; };
 		2C5401E52430840400D346C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401E32430840400D346C5 /* LaunchScreen.storyboard */; };
 		2C5401F02430840400D346C5 /* DelveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401EF2430840400D346C5 /* DelveTests.swift */; };
 		2C5401FB2430840400D346C5 /* DelveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401FA2430840400D346C5 /* DelveUITests.swift */; };
+		2C5402092430842E00D346C5 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5402082430842E00D346C5 /* signUpViewController.swift */; };
+		2C5402112430843800D346C5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020A2430843700D346C5 /* Queue.swift */; };
+		2C5402122430843800D346C5 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020B2430843800D346C5 /* profileViewController.swift */; };
+		2C5402132430843800D346C5 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020C2430843800D346C5 /* mainViewController.swift */; };
+		2C5402142430843800D346C5 /* SwipableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020D2430843800D346C5 /* SwipableView.swift */; };
+		2C5402152430843800D346C5 /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020E2430843800D346C5 /* tabViewController.swift */; };
+		2C5402162430843800D346C5 /* matchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54020F2430843800D346C5 /* matchViewController.swift */; };
+		2C5402172430843800D346C5 /* SwipableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5402102430843800D346C5 /* SwipableViewContainer.swift */; };
+		2C5402192430845400D346C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5402182430845400D346C5 /* Main.storyboard */; };
+		2CAB7E782430855E00353978 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CAB7E772430855E00353978 /* GoogleService-Info.plist */; };
+		6489F66B9901A57332954416 /* Pods_DelveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E322551E26BE2158C2380C2 /* Pods_DelveTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D01C836753D4E59A66A4902 /* Pods-DelveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelveTests.debug.xcconfig"; path = "Target Support Files/Pods-DelveTests/Pods-DelveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11CBB18123DBC4938B3CC34B /* Pods_Delve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5401D22430840200D346C5 /* Delve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5401D52430840200D346C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C5401D72430840200D346C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C5401D92430840200D346C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C5401DC2430840200D346C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C5401DF2430840200D346C5 /* Delve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Delve.xcdatamodel; sourceTree = "<group>"; };
 		2C5401E12430840400D346C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C5401E42430840400D346C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,23 @@
 		2C5401F62430840400D346C5 /* DelveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5401FA2430840400D346C5 /* DelveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelveUITests.swift; sourceTree = "<group>"; };
 		2C5401FC2430840400D346C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5402082430842E00D346C5 /* signUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		2C54020A2430843700D346C5 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		2C54020B2430843800D346C5 /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		2C54020C2430843800D346C5 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		2C54020D2430843800D346C5 /* SwipableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipableView.swift; sourceTree = "<group>"; };
+		2C54020E2430843800D346C5 /* tabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		2C54020F2430843800D346C5 /* matchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = matchViewController.swift; sourceTree = "<group>"; };
+		2C5402102430843800D346C5 /* SwipableViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipableViewContainer.swift; sourceTree = "<group>"; };
+		2C5402182430845400D346C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2CAB7E772430855E00353978 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		506DB0F6E8BC6D4898FA6766 /* Pods-DelveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DelveTests.release.xcconfig"; path = "Target Support Files/Pods-DelveTests/Pods-DelveTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A7010D2FC081248856CFFB8 /* Pods-Delve-DelveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delve-DelveUITests.release.xcconfig"; path = "Target Support Files/Pods-Delve-DelveUITests/Pods-Delve-DelveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E322551E26BE2158C2380C2 /* Pods_DelveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DelveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8BE8F4911B04176A4CFB9 /* Pods_Delve_DelveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delve_DelveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F027B2F2714BC081C03BC4FF /* Pods-Delve-DelveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delve-DelveUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delve-DelveUITests/Pods-Delve-DelveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F27DB9D0A693CD8447CA03AA /* Pods-Delve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delve.release.xcconfig"; path = "Target Support Files/Pods-Delve/Pods-Delve.release.xcconfig"; sourceTree = "<group>"; };
+		FA0B154C6EE75FEE72F9A3BC /* Pods-Delve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delve.debug.xcconfig"; path = "Target Support Files/Pods-Delve/Pods-Delve.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29432D985A387118DF6FC927 /* Pods_Delve.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6489F66B9901A57332954416 /* Pods_DelveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0500271442A5DD27E9A8FC03 /* Pods_Delve_DelveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,8 @@
 				2C5401EE2430840400D346C5 /* DelveTests */,
 				2C5401F92430840400D346C5 /* DelveUITests */,
 				2C5401D32430840200D346C5 /* Products */,
+				8700DBD0B46546700DD72972 /* Pods */,
+				549507B52702128E104A4F2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +139,20 @@
 				2C5401D52430840200D346C5 /* AppDelegate.swift */,
 				2C5401D72430840200D346C5 /* SceneDelegate.swift */,
 				2C5401D92430840200D346C5 /* ViewController.swift */,
-				2C5401DB2430840200D346C5 /* Main.storyboard */,
+				2C5402082430842E00D346C5 /* signUpViewController.swift */,
+				2C54020C2430843800D346C5 /* mainViewController.swift */,
+				2C54020F2430843800D346C5 /* matchViewController.swift */,
+				2C54020B2430843800D346C5 /* profileViewController.swift */,
+				2C54020A2430843700D346C5 /* Queue.swift */,
+				2C54020D2430843800D346C5 /* SwipableView.swift */,
+				2C5402102430843800D346C5 /* SwipableViewContainer.swift */,
+				2C54020E2430843800D346C5 /* tabViewController.swift */,
+				2C5402182430845400D346C5 /* Main.storyboard */,
 				2C5401E12430840400D346C5 /* Assets.xcassets */,
 				2C5401E32430840400D346C5 /* LaunchScreen.storyboard */,
 				2C5401E62430840400D346C5 /* Info.plist */,
 				2C5401DE2430840200D346C5 /* Delve.xcdatamodeld */,
+				2CAB7E772430855E00353978 /* GoogleService-Info.plist */,
 			);
 			path = Delve;
 			sourceTree = "<group>";
@@ -131,6 +175,29 @@
 			path = DelveUITests;
 			sourceTree = "<group>";
 		};
+		549507B52702128E104A4F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CBB18123DBC4938B3CC34B /* Pods_Delve.framework */,
+				C7F8BE8F4911B04176A4CFB9 /* Pods_Delve_DelveUITests.framework */,
+				7E322551E26BE2158C2380C2 /* Pods_DelveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8700DBD0B46546700DD72972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA0B154C6EE75FEE72F9A3BC /* Pods-Delve.debug.xcconfig */,
+				F27DB9D0A693CD8447CA03AA /* Pods-Delve.release.xcconfig */,
+				F027B2F2714BC081C03BC4FF /* Pods-Delve-DelveUITests.debug.xcconfig */,
+				5A7010D2FC081248856CFFB8 /* Pods-Delve-DelveUITests.release.xcconfig */,
+				0D01C836753D4E59A66A4902 /* Pods-DelveTests.debug.xcconfig */,
+				506DB0F6E8BC6D4898FA6766 /* Pods-DelveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5401FF2430840400D346C5 /* Build configuration list for PBXNativeTarget "Delve" */;
 			buildPhases = (
+				FF7EDBEFEC21DBCFC211678C /* [CP] Check Pods Manifest.lock */,
 				2C5401CE2430840200D346C5 /* Sources */,
 				2C5401CF2430840200D346C5 /* Frameworks */,
 				2C5401D02430840200D346C5 /* Resources */,
+				99349F02DD8462F6D0AA81B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5402022430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveTests" */;
 			buildPhases = (
+				E704A999C2122996E4D788BE /* [CP] Check Pods Manifest.lock */,
 				2C5401E72430840400D346C5 /* Sources */,
 				2C5401E82430840400D346C5 /* Frameworks */,
 				2C5401E92430840400D346C5 /* Resources */,
@@ -173,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5402052430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveUITests" */;
 			buildPhases = (
+				3EF76C99864A4F610E2095CA /* [CP] Check Pods Manifest.lock */,
 				2C5401F22430840400D346C5 /* Sources */,
 				2C5401F32430840400D346C5 /* Frameworks */,
 				2C5401F42430840400D346C5 /* Resources */,
+				48039A6C7012AF3BED8D30FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5402192430845400D346C5 /* Main.storyboard in Resources */,
+				2CAB7E782430855E00353978 /* GoogleService-Info.plist in Resources */,
 				2C5401E52430840400D346C5 /* LaunchScreen.storyboard in Resources */,
 				2C5401E22430840400D346C5 /* Assets.xcassets in Resources */,
-				2C5401DD2430840200D346C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +330,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EF76C99864A4F610E2095CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delve-DelveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48039A6C7012AF3BED8D30FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delve-DelveUITests/Pods-Delve-DelveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delve-DelveUITests/Pods-Delve-DelveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delve-DelveUITests/Pods-Delve-DelveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99349F02DD8462F6D0AA81B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delve/Pods-Delve-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delve/Pods-Delve-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delve/Pods-Delve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E704A999C2122996E4D788BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DelveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7EDBEFEC21DBCFC211678C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C5401CE2430840200D346C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5402152430843800D346C5 /* tabViewController.swift in Sources */,
+				2C5402092430842E00D346C5 /* signUpViewController.swift in Sources */,
+				2C5402112430843800D346C5 /* Queue.swift in Sources */,
+				2C5402122430843800D346C5 /* profileViewController.swift in Sources */,
 				2C5401DA2430840200D346C5 /* ViewController.swift in Sources */,
 				2C5401D62430840200D346C5 /* AppDelegate.swift in Sources */,
 				2C5401E02430840200D346C5 /* Delve.xcdatamodeld in Sources */,
+				2C5402172430843800D346C5 /* SwipableViewContainer.swift in Sources */,
 				2C5401D82430840200D346C5 /* SceneDelegate.swift in Sources */,
+				2C5402142430843800D346C5 /* SwipableView.swift in Sources */,
+				2C5402162430843800D346C5 /* matchViewController.swift in Sources */,
+				2C5402132430843800D346C5 /* mainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C5401DB2430840200D346C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C5401DC2430840200D346C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C5401E32430840400D346C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,11 +612,13 @@
 		};
 		2C5402002430840400D346C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0B154C6EE75FEE72F9A3BC /* Pods-Delve.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC7BM49F7N;
 				INFOPLIST_FILE = Delve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +632,13 @@
 		};
 		2C5402012430840400D346C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27DB9D0A693CD8447CA03AA /* Pods-Delve.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XC7BM49F7N;
 				INFOPLIST_FILE = Delve/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +652,7 @@
 		};
 		2C5402032430840400D346C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D01C836753D4E59A66A4902 /* Pods-DelveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +675,7 @@
 		};
 		2C5402042430840400D346C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506DB0F6E8BC6D4898FA6766 /* Pods-DelveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +698,7 @@
 		};
 		2C5402062430840400D346C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F027B2F2714BC081C03BC4FF /* Pods-Delve-DelveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +719,7 @@
 		};
 		2C5402072430840400D346C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7010D2FC081248856CFFB8 /* Pods-Delve-DelveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

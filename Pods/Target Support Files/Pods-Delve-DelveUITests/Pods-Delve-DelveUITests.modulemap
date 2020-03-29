@@ -1,0 +1,6 @@
+framework module Pods_Delve_DelveUITests {
+  umbrella header "Pods-Delve-DelveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
