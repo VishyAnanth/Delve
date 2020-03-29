@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5401D62430840200D346C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D52430840200D346C5 /* AppDelegate.swift */; };
+		2C5401D82430840200D346C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D72430840200D346C5 /* SceneDelegate.swift */; };
+		2C5401DA2430840200D346C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401D92430840200D346C5 /* ViewController.swift */; };
+		2C5401DD2430840200D346C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401DB2430840200D346C5 /* Main.storyboard */; };
+		2C5401E02430840200D346C5 /* Delve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401DE2430840200D346C5 /* Delve.xcdatamodeld */; };
+		2C5401E22430840400D346C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401E12430840400D346C5 /* Assets.xcassets */; };
+		2C5401E52430840400D346C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5401E32430840400D346C5 /* LaunchScreen.storyboard */; };
+		2C5401F02430840400D346C5 /* DelveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401EF2430840400D346C5 /* DelveTests.swift */; };
+		2C5401FB2430840400D346C5 /* DelveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5401FA2430840400D346C5 /* DelveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5401EC2430840400D346C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5401CA2430840200D346C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5401D12430840200D346C5;
+			remoteInfo = Delve;
+		};
+		2C5401F72430840400D346C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5401CA2430840200D346C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5401D12430840200D346C5;
+			remoteInfo = Delve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5401D22430840200D346C5 /* Delve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5401D52430840200D346C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C5401D72430840200D346C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C5401D92430840200D346C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C5401DC2430840200D346C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5401DF2430840200D346C5 /* Delve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Delve.xcdatamodel; sourceTree = "<group>"; };
+		2C5401E12430840400D346C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5401E42430840400D346C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C5401E62430840400D346C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5401EB2430840400D346C5 /* DelveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5401EF2430840400D346C5 /* DelveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelveTests.swift; sourceTree = "<group>"; };
+		2C5401F12430840400D346C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5401F62430840400D346C5 /* DelveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5401FA2430840400D346C5 /* DelveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelveUITests.swift; sourceTree = "<group>"; };
+		2C5401FC2430840400D346C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5401CF2430840200D346C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401E82430840400D346C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401F32430840400D346C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5401C92430840200D346C5 = {
+			isa = PBXGroup;
+			children = (
+				2C5401D42430840200D346C5 /* Delve */,
+				2C5401EE2430840400D346C5 /* DelveTests */,
+				2C5401F92430840400D346C5 /* DelveUITests */,
+				2C5401D32430840200D346C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5401D32430840200D346C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5401D22430840200D346C5 /* Delve.app */,
+				2C5401EB2430840400D346C5 /* DelveTests.xctest */,
+				2C5401F62430840400D346C5 /* DelveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5401D42430840200D346C5 /* Delve */ = {
+			isa = PBXGroup;
+			children = (
+				2C5401D52430840200D346C5 /* AppDelegate.swift */,
+				2C5401D72430840200D346C5 /* SceneDelegate.swift */,
+				2C5401D92430840200D346C5 /* ViewController.swift */,
+				2C5401DB2430840200D346C5 /* Main.storyboard */,
+				2C5401E12430840400D346C5 /* Assets.xcassets */,
+				2C5401E32430840400D346C5 /* LaunchScreen.storyboard */,
+				2C5401E62430840400D346C5 /* Info.plist */,
+				2C5401DE2430840200D346C5 /* Delve.xcdatamodeld */,
+			);
+			path = Delve;
+			sourceTree = "<group>";
+		};
+		2C5401EE2430840400D346C5 /* DelveTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5401EF2430840400D346C5 /* DelveTests.swift */,
+				2C5401F12430840400D346C5 /* Info.plist */,
+			);
+			path = DelveTests;
+			sourceTree = "<group>";
+		};
+		2C5401F92430840400D346C5 /* DelveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5401FA2430840400D346C5 /* DelveUITests.swift */,
+				2C5401FC2430840400D346C5 /* Info.plist */,
+			);
+			path = DelveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5401D12430840200D346C5 /* Delve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5401FF2430840400D346C5 /* Build configuration list for PBXNativeTarget "Delve" */;
+			buildPhases = (
+				2C5401CE2430840200D346C5 /* Sources */,
+				2C5401CF2430840200D346C5 /* Frameworks */,
+				2C5401D02430840200D346C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delve;
+			productName = Delve;
+			productReference = 2C5401D22430840200D346C5 /* Delve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5401EA2430840400D346C5 /* DelveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5402022430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveTests" */;
+			buildPhases = (
+				2C5401E72430840400D346C5 /* Sources */,
+				2C5401E82430840400D346C5 /* Frameworks */,
+				2C5401E92430840400D346C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5401ED2430840400D346C5 /* PBXTargetDependency */,
+			);
+			name = DelveTests;
+			productName = DelveTests;
+			productReference = 2C5401EB2430840400D346C5 /* DelveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C5401F52430840400D346C5 /* DelveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5402052430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveUITests" */;
+			buildPhases = (
+				2C5401F22430840400D346C5 /* Sources */,
+				2C5401F32430840400D346C5 /* Frameworks */,
+				2C5401F42430840400D346C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5401F82430840400D346C5 /* PBXTargetDependency */,
+			);
+			name = DelveUITests;
+			productName = DelveUITests;
+			productReference = 2C5401F62430840400D346C5 /* DelveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5401CA2430840200D346C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vishal Anantharaman";
+				TargetAttributes = {
+					2C5401D12430840200D346C5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					2C5401EA2430840400D346C5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2C5401D12430840200D346C5;
+					};
+					2C5401F52430840400D346C5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2C5401D12430840200D346C5;
+					};
+				};
+			};
+			buildConfigurationList = 2C5401CD2430840200D346C5 /* Build configuration list for PBXProject "Delve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5401C92430840200D346C5;
+			productRefGroup = 2C5401D32430840200D346C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5401D12430840200D346C5 /* Delve */,
+				2C5401EA2430840400D346C5 /* DelveTests */,
+				2C5401F52430840400D346C5 /* DelveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5401D02430840200D346C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5401E52430840400D346C5 /* LaunchScreen.storyboard in Resources */,
+				2C5401E22430840400D346C5 /* Assets.xcassets in Resources */,
+				2C5401DD2430840200D346C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401E92430840400D346C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401F42430840400D346C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5401CE2430840200D346C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5401DA2430840200D346C5 /* ViewController.swift in Sources */,
+				2C5401D62430840200D346C5 /* AppDelegate.swift in Sources */,
+				2C5401E02430840200D346C5 /* Delve.xcdatamodeld in Sources */,
+				2C5401D82430840200D346C5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401E72430840400D346C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5401F02430840400D346C5 /* DelveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5401F22430840400D346C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5401FB2430840400D346C5 /* DelveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5401ED2430840400D346C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5401D12430840200D346C5 /* Delve */;
+			targetProxy = 2C5401EC2430840400D346C5 /* PBXContainerItemProxy */;
+		};
+		2C5401F82430840400D346C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5401D12430840200D346C5 /* Delve */;
+			targetProxy = 2C5401F72430840400D346C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C5401DB2430840200D346C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5401DC2430840200D346C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5401E32430840400D346C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5401E42430840400D346C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C5401FD2430840400D346C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5401FE2430840400D346C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5402002430840400D346C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = Delve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.Delve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5402012430840400D346C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = Delve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.Delve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C5402032430840400D346C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = DelveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.DelveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delve.app/Delve";
+			};
+			name = Debug;
+		};
+		2C5402042430840400D346C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = DelveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.DelveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delve.app/Delve";
+			};
+			name = Release;
+		};
+		2C5402062430840400D346C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = DelveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.DelveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Delve;
+			};
+			name = Debug;
+		};
+		2C5402072430840400D346C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XC7BM49F7N;
+				INFOPLIST_FILE = DelveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lahacks.DelveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Delve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5401CD2430840200D346C5 /* Build configuration list for PBXProject "Delve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5401FD2430840400D346C5 /* Debug */,
+				2C5401FE2430840400D346C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5401FF2430840400D346C5 /* Build configuration list for PBXNativeTarget "Delve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5402002430840400D346C5 /* Debug */,
+				2C5402012430840400D346C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5402022430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5402032430840400D346C5 /* Debug */,
+				2C5402042430840400D346C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5402052430840400D346C5 /* Build configuration list for PBXNativeTarget "DelveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5402062430840400D346C5 /* Debug */,
+				2C5402072430840400D346C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C5401DE2430840200D346C5 /* Delve.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C5401DF2430840200D346C5 /* Delve.xcdatamodel */,
+			);
+			currentVersion = 2C5401DF2430840200D346C5 /* Delve.xcdatamodel */;
+			path = Delve.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C5401CA2430840200D346C5 /* Project object */;
+}
